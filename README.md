@@ -33,7 +33,7 @@ This project provides an API and basic UI for claiming purchase/license codes, s
    ```bash
    git clone https://github.com/esteham/license-server.git
    cd license-server
-````
+    ```
 
 2. Install dependencies:
 
