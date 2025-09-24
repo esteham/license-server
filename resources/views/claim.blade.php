@@ -10,7 +10,7 @@
 
     <form action="{{ route('claim') }}" method="POST">
         @csrf
-        <p><label for="code">Enter your purchase code:</label>
+        <p><label for="code">Name:</label>
             <input type="text" id="code" name="code" required>
         </p>
 
