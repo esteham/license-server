@@ -59,7 +59,7 @@
         <p>If you did not make this purchase, please contact our support team immediately.</p>
 
         <div class="footer">
-            &copy; {{ date('Y') }} Your Company. All rights reserved.  
+            &copy; {{ date('Y') }} Xetlab. All rights reserved.  
             <br>
             This is an automated email, please do not reply.
         </div>
