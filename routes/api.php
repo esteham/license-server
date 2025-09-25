@@ -9,7 +9,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::middleware('throttle:50,1')->group(function () {
-    Route::post('/claim', [LicenseApiController::class, 'claim']);
-    Route::get('/verify', [LicenseApiController::class, 'verify']);
+    Route::match(['get', 'post'], '/claim', [LicenseApiController::class, 'claim']);
+    Route::match(['get', 'post'], '/verify', [LicenseApiController::class, 'verify']);
     
 });
